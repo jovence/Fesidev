@@ -61,34 +61,40 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current dropdown"><a href="{{route("home")}}">Home</a>
-
+                                <li class="dropdown {{ request()->routeIs('home') ? 'current  active' : '' }}">
+                                    <a href="{{ route('home') }}">Home</a>
                                 </li>
-                                <li class="dropdown"><a href="#">Pages</a>
+                                <li class="dropdown {{ request()->routeIs('about.components') ? 'current active' : '' }}">
+                                    <a href="#">About</a>
                                     <ul>
-                                        <li><a href="{{route('about.components')}}">About Fesidev</a></li>
-                                        <li><a href="">Become a Volunteer</a></li>
-                                        <li><a href="">Coming Soon</a></li>
-                                        <li><a href="">Donate Us</a></li>
-                                        <li class="dropdown"><a href="">Portfolio</a>
-
+                                        <li class="{{ request()->routeIs('about.components') ? 'current active' : '' }}">
+                                            <a href="{{ route('about.components') }}">About Fesidev</a>
                                         </li>
+                                        <li><a href="{{route("volunteer.components")}}">Become a Volunteer</a></li>
+                                        <li class="dropdown"><a href="{{route("fesidev.in.nations")}}">Fesidev in nations </a></li>
+                                        <li class="dropdown"><a href="{{route("portfolio.components")}}">Portfolio</a></li>
                                     </ul>
                                 </li>
-
-                                <li class="dropdown"><a href="{{route('event.components')}}">Events</a>
+                                <li class="{{ request()->routeIs('event.components') ? 'current dropdown active' : 'dropdown' }}">
+                                    <a href="{{ route('event.components') }}">Events</a>
                                 </li>
-
-                                <li class="dropdown"><a href="#">Our actions</a>
+                                <li class="dropdown {{ request()->routeIs('about.components') ? 'current active' : '' }}">
+                                    <a href="#">Our actions</a>
                                     <ul>
-                                        <li><a href="{{route('about.components')}}">Health and wellness</a></li>
-                                        <li><a href="">agricultural economics and livestock</a></li>
-                                        <li><a href="">social protection</a></li>
-                                        <li><a href="">Donate Us</a></li>
+                                        <li class="{{ request()->routeIs('health.components') ? 'current active' : '' }}">
+                                            <a href="{{ route('health.components') }}">Health and wellness</a>
+                                        </li>
+                                        <li><a href="{{route("agricultural.live.stocks")}}">agricultural economics and livestock</a></li>
+                                        <li><a href="{{route("social.protection")}}">social protection</a></li>
+                                        <li><a href="{{route("faq.components")}}">FAQ’s</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="{{route('project.components')}}">Projects</a></li>
-                                <li><a href="{{route('contact.components')}}">Contact</a></li>
+                                <li class="{{ request()->routeIs('project.components') ? 'current active' : '' }}">
+                                    <a href="{{ route('project.components') }}">Projects</a>
+                                </li>
+                                <li class="{{ request()->routeIs('contact.components') ? 'current active' : '' }}">
+                                    <a href="{{ route('contact.components') }}">Contact</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
