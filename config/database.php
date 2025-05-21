@@ -95,9 +95,6 @@ return [
             'prefix_indexes' => true,
             'search_path' => 'public',
             'sslmode' => 'require',
-            'options' => extension_loaded('pdo_pgsql') ? [
-                PDO::PGSQL_SSL_CA => '/etc/ssl/certs/ca-certificates.crt', // Path to CA cert
-            ] : [],
         ],
 
         'sqlsrv' => [
