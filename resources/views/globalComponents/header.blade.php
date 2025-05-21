@@ -16,10 +16,10 @@
                             <a href="tel:23345678901">+233 456 789 01</a>
                         </li>
                         <li>
-                            <a href="mailto:example@info.com">example@info.com</a>
+                            <a href="mailto:example@info.com">fesidev@gmail.com</a>
                         </li>
                         <li>
-                            54 Berrick St Boston MA 02115.
+                            Bertoua Koume
                         </li>
                     </ul>
                 </div>
@@ -32,9 +32,7 @@
                         <span>En</span>
                         <ul class="language-list clearfix">
                             <li><a href="index.html">English</a></li>
-                            <li><a href="index.html">Spanish</a></li>
-                            <li><a href="index.html">Chines</a></li>
-                            <li><a href="index.html">Turky</a></li>
+                            <li><a href="index.html">French</a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,70 +61,34 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current dropdown"><a href="index.html">Home</a>
+                                <li class="current dropdown"><a href="{{route("home")}}">Home</a>
+
+                                </li>
+                                <li class="dropdown"><a href="#">Pages</a>
                                     <ul>
-                                        <li><a href="index.html">Home Page 01</a></li>
-                                        <li><a href="index-2.html">Home Page 02</a></li>
-                                        <li><a href="index-onepage.html">OnePage Home</a></li>
-                                        <li><a href="index-rtl.html">RTL Home</a></li>
-                                        <li class="dropdown"><a href="index.html">Header Style</a>
-                                            <ul>
-                                                <li><a href="index.html">Header Style 01</a></li>
-                                                <li><a href="index-2.html">Header Style 02</a></li>
-                                            </ul>
+                                        <li><a href="{{route('about.components')}}">About Fesidev</a></li>
+                                        <li><a href="">Become a Volunteer</a></li>
+                                        <li><a href="">Coming Soon</a></li>
+                                        <li><a href="">Donate Us</a></li>
+                                        <li class="dropdown"><a href="">Portfolio</a>
+
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="index.html">Pages</a>
+
+                                <li class="dropdown"><a href="{{route('event.components')}}">Events</a>
+                                </li>
+
+                                <li class="dropdown"><a href="#">Our actions</a>
                                     <ul>
-                                        <li><a href="about.html">About Charity</a></li>
-                                        <li><a href="volunteer.html">Become a Volunteer</a></li>
-                                        <li><a href="comingsoon.html">Coming Soon</a></li>
-                                        <li><a href="donate-page.html">Donate Us</a></li>
-                                        <li><a href="faq.html">FAQ’s</a></li>
-                                        <li><a href="error.html">404</a></li>
-                                        <li class="dropdown"><a href="index.html">Portfolio</a>
-                                            <ul>
-                                                <li><a href="portfolio.html">2 Columns Grid</a></li>
-                                                <li><a href="portfolio-2.html">3 Columns Grid</a></li>
-                                                <li><a href="portfolio-3.html">4 Columns Grid</a></li>
-                                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="{{route('about.components')}}">Health and wellness</a></li>
+                                        <li><a href="">agricultural economics and livestock</a></li>
+                                        <li><a href="">social protection</a></li>
+                                        <li><a href="">Donate Us</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="index.html">Donations</a>
-                                    <ul>
-                                        <li><a href="donations.html">2 Columns Grid</a></li>
-                                        <li><a href="donations-2.html">3 Columns Grid</a></li>
-                                        <li><a href="donations-3.html">List View</a></li>
-                                        <li><a href="donation-details.html">Donation Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="index.html">Events</a>
-                                    <ul>
-                                        <li><a href="events.html">Grid View</a></li>
-                                        <li><a href="events-2.html">List View</a></li>
-                                        <li><a href="event-details.html">Detail Page</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="index.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Grid View</a></li>
-                                        <li><a href="blog-2.html">List View</a></li>
-                                        <li><a href="blog-details.html">Single Post</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="index.html">Shop</a>
-                                    <ul>
-                                        <li><a href="products.html">Our Products</a></li>
-                                        <li><a href="product-details.html">Product Details</a></li>
-                                        <li><a href="cart.html">Shopping Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="account.html">My Account</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{route('project.components')}}">Projects</a></li>
+                                <li><a href="{{route('contact.components')}}">Contact</a></li>
                             </ul>
                         </div>
                     </nav>

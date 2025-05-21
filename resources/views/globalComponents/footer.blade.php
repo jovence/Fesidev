@@ -13,7 +13,7 @@
                                 undertakes laborius physical exercise.</p>
                             <div class="inner">
                                 <div class="icon-box"><i class="icon-charity"></i></div>
-                                <p>&copy; 2021 <a href="index-2.html">Pure Hearts,</a> All Rights Reserved.</p>
+                                <p>&copy; 2025 <a href="index-2.html">Fesidev,</a> All Rights Reserved.</p>
                             </div>
                             <div class="links"><a href="index-2.html"><i class="far fa-angle-right"></i>More
                                     About Us</a></div>
