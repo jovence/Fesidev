@@ -1,6 +1,0 @@
-# Désactiver l'affichage des répertoires
-Options -Indexes
-
-# Rediriger toutes les requêtes vers le dossier public/
-RewriteEngine On
-RewriteRule ^(.*)$ public/$1 [L]
