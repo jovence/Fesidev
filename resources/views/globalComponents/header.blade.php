@@ -13,7 +13,7 @@
                         <li>
                             <i class="icon-chat"></i>
                             <span>Helpline:</span>
-                            <a href="tel:23345678901">+233 456 789 01</a>
+                            <a href="tel:23345678901">+33 633 85 13 70</a>
                         </li>
                         <li>
                             <a href="mailto:example@info.com">fesidev@gmail.com</a>
@@ -26,7 +26,7 @@
                 <div class="right-column pull-right">
                     <div class="update-news">
                         <p><i class="icon-megaphone"></i><span>Updates:</span> Delivers Personal Protective
-                            Equipments to North Macedonia . . .</p>
+                            Equipments to East Cameroon . . .</p>
                     </div>
                     <div class="language-box">
                         <span>En</span>

@@ -52,56 +52,39 @@
 
 
         <!-- preloader -->
-        <div class="loader-wrap">
-            <div class="preloader">
-                <div class="preloader-close">x</div>
-                <div id="handle-preloader" class="handle-preloader">
+        {{-- <script>
+            // Check if this is the first visit
+            if (!localStorage.getItem('firstVisit')) {
+            document.write(` --}}
+                <div class="loader-wrap">
+                <div class="preloader">
+                    <div class="preloader-close">x</div>
+                    <div id="handle-preloader" class="handle-preloader">
                     <div class="animation-preloader">
                         <div class="spinner"></div>
                         <div class="txt-loading">
-                            <span data-text-preloader="C" class="letters-loading">
-                                C
-                            </span>
-                            <span data-text-preloader="M" class="letters-loading">
-                                M
-                            </span>
-                            <span data-text-preloader="F" class="letters-loading">
-                                F
-                            </span>
-                            <span data-text-preloader="I" class="letters-loading">
-                                I
-                            </span>
-                            <br />
-                            <br />
-                            <span data-text-preloader="F" class="letters-loading">
-                                F
-                            </span>
-                            <span data-text-preloader="e" class="letters-loading">
-                                e
-                            </span>
-                            <span data-text-preloader="s" class="letters-loading">
-                                s
-                            </span>
-                            <span data-text-preloader="i" class="letters-loading">
-                                i
-                            </span>
-                            <span data-text-preloader="d" class="letters-loading">
-                                d
-                            </span>
-                            <span data-text-preloader="e" class="letters-loading">
-                                e
-                            </span>
-                            <span data-text-preloader="v" class="letters-loading">
-                                v
-                            </span>
-
-
-
+                        <span data-text-preloader="C" class="letters-loading">C</span>
+                        <span data-text-preloader="M" class="letters-loading">M</span>
+                        <span data-text-preloader="F" class="letters-loading">F</span>
+                        <span data-text-preloader="I" class="letters-loading">I</span>
+                        &nbsp;
+                        <span data-text-preloader="F" class="letters-loading">F</span>
+                        <span data-text-preloader="e" class="letters-loading">e</span>
+                        <span data-text-preloader="s" class="letters-loading">s</span>
+                        <span data-text-preloader="i" class="letters-loading">i</span>
+                        <span data-text-preloader="d" class="letters-loading">d</span>
+                        <span data-text-preloader="e" class="letters-loading">e</span>
+                        <span data-text-preloader="v" class="letters-loading">v</span>
                         </div>
                     </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+                </div>
+            {{-- `);
+            // Set the flag after first visit
+            localStorage.setItem('firstVisit', 'true');
+            }
+        </script> --}}
         <!-- preloader end -->
 
         <!-- main header -->

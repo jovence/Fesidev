@@ -6,33 +6,33 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget">
                         <div class="widget-title">
-                            <h3>About Charity</h3>
+                            <h3>About CMFI</h3>
                         </div>
                         <div class="widget-content">
-                            <p>Prevents our being able to do we like best, every pleasures is every pain avoided
-                                undertakes laborius physical exercise.</p>
+                            <p>Christian Missionary Fellowship International (CMFI) was founded by Professor Zacharias Tanee Fomum (ZTF), dedicated to raising disciples who are totally committed to the Lord Jesus Christ.</p>
                             <div class="inner">
                                 <div class="icon-box"><i class="icon-charity"></i></div>
-                                <p>&copy; 2025 <a href="index-2.html">Fesidev,</a> All Rights Reserved.</p>
+                                <p>&copy; 2025 <a href="{{ route('home') }}">CMFI Fesidev,</a> All Rights Reserved.</p>
                             </div>
-                            <div class="links"><a href="index-2.html"><i class="far fa-angle-right"></i>More
-                                    About Us</a></div>
+                            <div class="links">
+                                <a href=""><i class="far fa-angle-right"></i>More About CMFI</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget links-widget">
                         <div class="widget-title">
-                            <h3>Useful Links</h3>
+                            <h3>Quick Links</h3>
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                <li><a href="about.html">About Charity</a></li>
-                                <li><a href="volunteer.html">Meet Our Volunteers</a></li>
-                                <li><a href="events.html">Upcoming Events</a></li>
-                                <li><a href="blog.html">Blog & Articles</a></li>
-                                <li><a href="donations.html">Our Causes</a></li>
-                                <li><a href="contact.html">Get Touch With Us</a></li>
+                                <li><a href="">About CMFI</a></li>
+                                <li><a href="">Join Our Ministry</a></li>
+                                <li><a href="">Prayer Chains & Events</a></li>
+                                <li><a href="https://ztfbooks.com" target="_blank">ZTF Books</a></li>
+                                <li><a href="">Our Mission Work</a></li>
+                                <li><a href="">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -40,22 +40,22 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget post-widget">
                         <div class="widget-title">
-                            <h3>Recent Donors</h3>
+                            <h3>Recent Publications</h3>
                         </div>
                         <div class="post-inner">
                             <div class="post">
-                                <figure class="post-thumb"><a href="donation-details.html"><img
-                                            src="assets/images/resource/footer-post-1.png" alt=""></a></figure>
-                                <h5>$250</h5>
-                                <h4><a href="donation-details.html">Rodha Thelma</a></h4>
-                                <span>California</span>
+                                <figure class="post-thumb">
+                                    <a href="https://ztfbooks.com"><img src="{{ asset('assets/images/ztf/book1.jpg') }}" alt="ZTF Book"></a>
+                                </figure>
+                                <h4><a href="https://ztfbooks.com">The Way of Discipleship</a></h4>
+                                <span>By Prof. ZTF</span>
                             </div>
                             <div class="post">
-                                <figure class="post-thumb"><a href="donation-details.html"><img
-                                            src="assets/images/resource/footer-post-2.png" alt=""></a></figure>
-                                <h5>$1200</h5>
-                                <h4><a href="donation-details.html">Luke Nobert</a></h4>
-                                <span>Newyork</span>
+                                <figure class="post-thumb">
+                                    <a href="https://ztfbooks.com"><img src="{{ asset('assets/images/ztf/book2.jpg') }}" alt="ZTF Book"></a>
+                                </figure>
+                                <h4><a href="https://ztfbooks.com">The Way of Christian Service</a></h4>
+                                <span>By Prof. ZTF</span>
                             </div>
                         </div>
                     </div>
@@ -63,49 +63,24 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget gallery-widget">
                         <div class="widget-title">
-                            <h3>Our Gallery</h3>
+                            <h3>Ministry Gallery</h3>
                         </div>
                         <div class="widget-content">
                             <ul class="image-list clearfix">
+                                @foreach($ministryImages ?? [] as $image)
                                 <li>
                                     <figure class="image">
-                                        <img src="assets/images/resource/footer-gallery-1.jpg" alt="">
-                                        <a href="index-2.html"><i class="fas fa-expand-alt"></i></a>
+                                        <img src="{{ asset('assets/images/ministry/' . $image) }}" alt="CMFI Ministry">
+                                        <a href="{{ asset('assets/images/ministry/' . $image) }}" data-fancybox="gallery">
+                                            <i class="fas fa-expand-alt"></i>
+                                        </a>
                                     </figure>
                                 </li>
-                                <li>
-                                    <figure class="image">
-                                        <img src="assets/images/resource/footer-gallery-2.jpg" alt="">
-                                        <a href="index-2.html"><i class="fas fa-expand-alt"></i></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure class="image">
-                                        <img src="assets/images/resource/footer-gallery-3.jpg" alt="">
-                                        <a href="index-2.html"><i class="fas fa-expand-alt"></i></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure class="image">
-                                        <img src="assets/images/resource/footer-gallery-4.jpg" alt="">
-                                        <a href="index-2.html"><i class="fas fa-expand-alt"></i></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure class="image">
-                                        <img src="assets/images/resource/footer-gallery-5.jpg" alt="">
-                                        <a href="index-2.html"><i class="fas fa-expand-alt"></i></a>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure class="image">
-                                        <img src="assets/images/resource/footer-gallery-6.jpg" alt="">
-                                        <a href="index-2.html"><i class="fas fa-expand-alt"></i></a>
-                                    </figure>
-                                </li>
+                                @endforeach
                             </ul>
-                            <div class="more-links"><a href="index-2.html"><i class="far fa-angle-right"></i>View
-                                    More</a></div>
+                            <div class="more-links">
+                                <a href=""><i class="far fa-angle-right"></i>View More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -115,11 +90,10 @@
     <div class="footer-bottom-two">
         <div class="auto-container">
             <ul class="social-links clearfix">
-                <li><a href="index-2.html"><i class="fab fa-facebook-square"></i>Facebook</a></li>
-                <li><a href="index-2.html"><i class="fab fa-twitter-square"></i>Twitter</a></li>
-                <li><a href="index-2.html"><i class="fab fa-linkedin"></i>Linkedin</a></li>
-                <li><a href="index-2.html"><i class="fab fa-google-plus-square"></i>Google Plus</a></li>
-                <li><a href="index-2.html"><i class="fab fa-pinterest-square"></i>Pinterest</a></li>
+                <li><a href="https://www.facebook.com/cmfi.official" target="_blank"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                <li><a href="https://www.youtube.com/c/cmfimedia" target="_blank"><i class="fab fa-youtube"></i>YouTube</a></li>
+                <li><a href="https://www.ztfbooks.com" target="_blank"><i class="fas fa-book"></i>ZTF Books</a></li>
+                <li><a href="https://www.cmfi.net" target="_blank"><i class="fas fa-globe"></i>Official Website</a></li>
             </ul>
         </div>
     </div>
