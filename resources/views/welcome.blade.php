@@ -20,17 +20,31 @@
         rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link href="{{ asset('assets/css/font-awesome-all.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/flaticon.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/owl.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/swiper.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/jquery.fancybox.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/jquery.bootstrap-touchspin.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/color.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
+    @production
+        <link href="{{ secure_asset('assets/css/font-awesome-all.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('assets/css/flaticon.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('assets/css/owl.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('assets/css/swiper.min.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('assets/css/bootstrap.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('assets/css/jquery.fancybox.min.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('assets/css/animate.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('assets/css/jquery.bootstrap-touchspin.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('assets/css/color.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('assets/css/style.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('assets/css/responsive.css') }}" rel="stylesheet">
+    @else
+        <link href="{{ asset('assets/css/font-awesome-all.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/flaticon.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/owl.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/swiper.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/jquery.fancybox.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/jquery.bootstrap-touchspin.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/color.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
+    @endproduction
 </head>
 
 <body>
@@ -149,21 +163,39 @@
     </div>
 
     <!-- jequery plugins -->
-    <script src="{{ asset('assets/js/jquery.js') }}"></script>
-    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/owl.js') }}"></script>
-    <script src="{{ asset('assets/js/swiper.min.js') }}"></script>
-    <script src="{{ asset('assets/js/wow.js') }}"></script>
-    <script src="{{ asset('assets/js/validation.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.fancybox.js') }}"></script>
-    <script src="{{ asset('assets/js/appear.js') }}"></script>
-    <script src="{{ asset('assets/js/scrollbar.js') }}"></script>
-    <script src="{{ asset('assets/js/isotope.js') }}"></script>
-    <script src="{{ asset('assets/js/nav-tool.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.bootstrap-touchspin.js') }}"></script>
-    <script src="{{ asset('assets/js/countdown.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
+    @production
+        <script src="{{ secure_asset('assets/js/jquery.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/popper.min.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/bootstrap.min.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/owl.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/swiper.min.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/wow.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/validation.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/jquery.fancybox.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/appear.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/scrollbar.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/isotope.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/nav-tool.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/jquery.bootstrap-touchspin.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/countdown.js') }}"></script>
+        <script src="{{ secure_asset('assets/js/jquery.nice-select.min.js') }}"></script>
+    @else
+        <script src="{{ asset('assets/js/jquery.js') }}"></script>
+        <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+        <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('assets/js/owl.js') }}"></script>
+        <script src="{{ asset('assets/js/swiper.min.js') }}"></script>
+        <script src="{{ asset('assets/js/wow.js') }}"></script>
+        <script src="{{ asset('assets/js/validation.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.fancybox.js') }}"></script>
+        <script src="{{ asset('assets/js/appear.js') }}"></script>
+        <script src="{{ asset('assets/js/scrollbar.js') }}"></script>
+        <script src="{{ asset('assets/js/isotope.js') }}"></script>
+        <script src="{{ asset('assets/js/nav-tool.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.bootstrap-touchspin.js') }}"></script>
+        <script src="{{ asset('assets/js/countdown.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
+    @endproduction
 
     <!-- map script -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
