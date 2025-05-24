@@ -25,7 +25,7 @@
                     <div class="content_block_6">
                         <div class="content-box">
                             <div class="sec-title">
-                                <span class="top-text">About Pure Hearts</span>
+                                <span class="top-text">About Fesidev</span>
                                 <h2>Help the Society,Donate to the Charity</h2>
                             </div>
                             <ul class="award-list clearfix">
@@ -735,7 +735,7 @@
         <div class="auto-container">
             <div class="sec-title light centred">
                 <span class="top-text">Interesting Numbers</span>
-                <h2>Pure Hearts Facts & Figures</h2>
+                <h2>Fesidev Facts & Figures</h2>
                 <p>The master-builder of human happiness no one rejects, dislikes <br />or avoids pleasure itself
                     pleasure.
                 </p>

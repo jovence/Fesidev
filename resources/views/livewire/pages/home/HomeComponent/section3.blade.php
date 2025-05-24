@@ -31,7 +31,7 @@
                     <div class="content_block_5">
                         <div class="content-box">
                             <div class="sec-title style-two">
-                                <span class="top-text">About Pure Hearts</span>
+                                <span class="top-text">About Fesidev</span>
                                 <h2>Here to Bring People Together to Help</h2>
                             </div>
                             <div class="text">
@@ -134,7 +134,7 @@
                                     <li><i class="far fa-clock"></i>10.00 am</li>
                                     <li><i class="far fa-map"></i>California</li>
                                 </ul>
-                                <h3><a href="event-details.html">Pure Hearts Present Virtual Brain Game for
+                                <h3><a href="event-details.html">Fesidev Present Virtual Brain Game for
                                         Youth</a></h3>
                                 <div class="links"><a href="event-details.html">More Details</a></div>
                             </div>
@@ -172,7 +172,7 @@
         <div class="auto-container">
             <div class="sec-title style-two light centred">
                 <span class="top-text">Interesting Numbers</span>
-                <h2>Pure Hearts Facts & Figures</h2>
+                <h2>Fesidev Facts & Figures</h2>
                 <p>The master-builder of human happiness no one rejects, dislikes <br />or avoids pleasure itself
                     pleasure.</p>
             </div>

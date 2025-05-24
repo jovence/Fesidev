@@ -62,7 +62,7 @@
                                         <li><i class="far fa-clock"></i>10.00 am</li>
                                         <li><i class="far fa-map"></i>California</li>
                                     </ul>
-                                    <h3><a href="event-details.html">Pure Hearts Virtual Brain Game</a></h3>
+                                    <h3><a href="event-details.html">Fesidev Virtual Brain Game</a></h3>
                                     <p>Trouble that are bound to ensue; and equal blame belongs to those who fail in
                                         their duty.</p>
                                     <div class="links"><a href="event-details.html">More Details</a></div>

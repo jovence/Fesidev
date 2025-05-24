@@ -40,7 +40,7 @@
                         <li class="accordion block active-block">
                             <div class="acc-btn active">
                                 <div class="icon-outer"><i class="icon-right-arrow"></i></div>
-                                <h5><i class="icon-question"></i>What is Save the Pure Hearts?</h5>
+                                <h5><i class="icon-question"></i>What is Save the Fesidev?</h5>
                             </div>
                             <div class="acc-content current">
                                 <div class="text">
@@ -92,7 +92,7 @@
                         <li class="accordion block">
                             <div class="acc-btn">
                                 <div class="icon-outer"><i class="icon-right-arrow"></i></div>
-                                <h5><i class="icon-question"></i>Who can access Pure Hearts's research?</h5>
+                                <h5><i class="icon-question"></i>Who can access Fesidev's research?</h5>
                             </div>
                             <div class="acc-content">
                                 <div class="text">
@@ -105,7 +105,7 @@
                         <li class="accordion block">
                             <div class="acc-btn">
                                 <div class="icon-outer"><i class="icon-right-arrow"></i></div>
-                                <h5><i class="icon-question"></i>How is Pure Hearts different from others?</h5>
+                                <h5><i class="icon-question"></i>How is Fesidev different from others?</h5>
                             </div>
                             <div class="acc-content">
                                 <div class="text">

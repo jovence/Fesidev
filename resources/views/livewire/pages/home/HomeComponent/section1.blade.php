@@ -146,7 +146,7 @@
     <section class="welcome-section sec-pad">
         <div class="auto-container">
             <div class="sec-title style-two centred">
-                <span class="top-text">Welcome to Pure Hearts</span>
+                <span class="top-text">Welcome to Fesidev</span>
                 <h2>Participate in Changing the World</h2>
                 <p>The master-builder of human happiness no one rejects, dislikes <br />or avoids pleasure itself
                     pleasure.</p>
