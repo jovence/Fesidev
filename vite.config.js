@@ -1,3 +1,4 @@
+
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 
@@ -13,7 +14,10 @@ export default defineConfig({
     ],
     build: {
         manifest: true,
+        outDir: 'public/build', // Explicit output directory
+        emptyOutDir: true,      // Clean directory before build
         rollupOptions: {
+            // Only use external if you're using CDN assets
             external: [
                 // Add any external dependencies here
                 /^bootstrap/,
